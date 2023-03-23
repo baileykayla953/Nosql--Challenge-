@@ -26,11 +26,11 @@ Part 3: Exploratory Analysis
 
 
  ## Installing
-- run in Jupyter Notebook/ Visual Studio /
+-run in Jupyter Notebook/ Visual Studio /
  
-- Python File/ Pandas Library 
+-Python File/ Pandas Library 
 
-- Ran in PythonData 3.7 Environment
+-Ran in PythonData 3.7 Environment
 
 -Mongodb
 
@@ -71,9 +71,9 @@ Part 3: Exploratory Analysis
 
 -Insert new restaurant data into the collection and check if it was inserted 
 
-- Find BusinessTypeID for Restaurant/cafe/canteen and return only bussinesstypeid and businesstype fields
+-Find BusinessTypeID for Restaurant/cafe/canteen and return only bussinesstypeid and businesstype fields
 
-- Update the new data with correct BusinessTypeID and confirm update.
+-Update the new data with correct BusinessTypeID and confirm update.
 
 -Find how many documents have LocalAuthority Name as Dover and delete
 
@@ -82,6 +82,16 @@ Part 3: Exploratory Analysis
 -Change data type from string to decimal for longitude and latitude and check 
 
 
+## Part 3: Exploratory Analysis 
+
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/118647940/227312171-c4420285-9f38-4b49-81e3-bb4c3be7bda5.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/118647940/227312706-a1d59458-43cb-4eb3-ab10-5e91dcda64f5.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/118647940/227312915-4af9c839-7c8e-4b77-8cc5-5fe0149ed21a.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/118647940/227313076-78151b88-21c9-495f-b123-73b63b55b24d.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/118647940/227313455-52011122-464f-4a75-a57e-5e7fac0dec23.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/118647940/227313803-af5f869e-f002-46fa-8dcc-f59833519c61.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/118647940/227313937-ab8ded93-3a5b-45ad-8ddf-d7d5ecff2cb1.png">
+<img width="960" alt="image" src="https://user-images.githubusercontent.com/118647940/227313994-a3a3c75b-c5da-42ba-b3d4-337e9d031c48.png">
 
 
 
@@ -90,6 +100,19 @@ Part 3: Exploratory Analysis
 
 
 
+-Import dependencies
+
+-Create instance and assign data base variable name 
+
+-Review collections and assign variable 
+
+-Find establishment with hygiene score equal to 0, convert to pandas dataframe, and display 10 rows 
+
+-Find establishments in Lone with RatingValue greater than or equal to 4, count documents, convert to Pandas Dataframe and displey first 10 rows
+
+-Find top 5 establishments with RatingValue of 5 and sorted by lowest hygiene score nearest to Penang Flavours and convert to pandas dataframe
+
+-Create pipleine that has a matches of hygiene score 0, grouped by localauthorityid, and sorted. convert result to pandas dataframe and display first 10 results. 
 
 
 
